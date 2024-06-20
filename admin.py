@@ -3,9 +3,9 @@ import boto3
 import streamlit as st
 
 # Set AWS credentials
-os.environ['AWS_ACCESS_KEY_ID'] = 'AKIA5FTZDGCAVSOPAHG2'
-os.environ['AWS_SECRET_ACCESS_KEY'] = 'm40SquK+oNNa6jy46qCThXZGW9H5prmshCPC2ieR'
-os.environ['AWS_REGION'] = 'us-east-1'  # Ensure this matches your region
+os.environ['AWS_ACCESS_KEY_ID'] = ''
+os.environ['AWS_SECRET_ACCESS_KEY'] = ''
+os.environ['AWS_REGION'] = 'us-east-1' 
 
 # Updated Imports
 from langchain_community.embeddings import BedrockEmbeddings
